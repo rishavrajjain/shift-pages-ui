@@ -1,0 +1,191 @@
+
+/*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+.features .icon-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #f5f5ff;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .features .icon-box i {
+    font-size: 32px;
+    padding-right: 10px;
+    line-height: 1;
+  }
+  
+  .features .icon-box h3 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 16px;
+  }
+  
+  .features .icon-box h3 a {
+    color: #010483;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .features .icon-box h3 a:hover {
+    color: #01036f;
+  }
+  
+  .features .icon-box:hover {
+    background: #ebebff;
+  }
+  
+  /*--------------------------------------------------------------
+  # Counts
+  --------------------------------------------------------------*/
+  .counts {
+    background: #f5f5ff;
+    padding: 70px 0 60px;
+  }
+  
+  .counts .count-box {
+    padding: 30px 30px 25px 30px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background: #fff;
+  }
+  
+  .counts .count-box i {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    background: #1acc8d;
+    padding: 12px;
+    color: #fff;
+    border-radius: 50px;
+  }
+  
+  .counts .count-box span {
+    font-size: 36px;
+    display: block;
+    font-weight: 600;
+    color: #010483;
+  }
+  
+  .counts .count-box p {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+  }
+
+  
+  /*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  .section-bg {
+    background-color: #f5f5ff;
+  }
+  
+  .section-title {
+    padding-bottom: 40px;
+  }
+  
+  .section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #1acc8d;
+    margin: 4px 10px;
+  }
+  
+  .section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #010483;
+  }
+
+  @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&display=swap");
+
+  .credit-card {
+    position: relative;
+    max-width: 520px;
+    min-width: 520px;
+    margin: 50px auto;
+    min-height: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    box-sizing: border-box;
+    background: linear-gradient(-240deg, rgba(116, 15, 214, 0.9), rgba(86, 58, 250, 0.9), rgba(86, 58, 250, 0.9));
+    justify-content: space-between;
+    font-family: "Dosis", sans-serif;
+    overflow: hidden;
+  }
+  
+  .credit-card:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    color: rgb(249 249 249 / 10%);
+    background: linear-gradient(135deg, currentColor 25%, transparent 25%) -100px 0,
+      linear-gradient(225deg, currentColor 25%, transparent 25%) -100px 0,
+      linear-gradient(315deg, currentColor 25%, transparent 25%),
+      linear-gradient(45deg, currentColor 25%, transparent 25%);
+    background-size: calc(2 * 100px) calc(2 * 100px);
+  }
+  
+  .logo {
+    width: 72px;
+    display: flex;
+    align-self: flex-end;
+    filter: drop-shadow(1px 1px 0 #555);
+    z-index: 1;
+  }
+  
+  .name-and-expiry {
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 3px;
+    filter: drop-shadow(1px 0px 1px #555);
+    text-transform: uppercase;
+  }
+  
+  .numbers {
+    font-size: 26px;
+    text-align: center;
+    color: #fff;
+    filter: drop-shadow(1px 0px 1px #555);
+    z-index: 1;
+  }
+  
